@@ -2,6 +2,8 @@
 using namespace std;
 
 int main() {
+    freopen("testcase_case.txt", "r", stdin);
+    freopen("testcase_solution.txt", "w", stdout);
     int n;
     cin >> n;
     vector<long long> a(n);
